@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(3deg, rgb(1, 1, 15)55%, rgb(1, 8, 36)0%);
+    padding-top: 20px;
+    color: white;
+}
+.firstClass{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    margin-right: 150px; 
+    margin-left: 150px;
+    cursor: none;
+}
+#capsuleBar{
+    width: 8rem;
+    height: 1rem;
+    margin-top: 1.7rem;
+    border: 0.2rem solid rgb(177, 16, 16);  
+    border-radius: 50px;
+}
+#capsuleProgress{
+   background: rgb(130, 37, 54); 
+   height:100%;
+   width:0%;
+}
+.correct{
+    background:linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232 ,111) 100%);
+}
+.incorrect{
+    background:linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+}
+#score{
+    font-size:25px;
+}
+.options{
+    display:flex;
+    width: 50%;
+    min-width: 10rem;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    font-size:1.5rem;
+    background-color: dimgrey;
+}
+.options:hover{
+    cursor: pointer;
+    Transform:scale(1.0203);
+    Transform:transform 700ms;
+    border: 0.1198rem solid rgba(2, 20, 0, 20);
+    box-shadow: 0.09rem 0.09rem 0.09rem 0.09rem rgb(5, 8, 222);
+}
+.option{
+    padding: 0.1rem; 
+    color: blanchedalmond;
+}
+.option-text{
+    padding-left: 0.5rem;
+    width: 100%;
+}
+#questions{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-bottom: 10%;
+    cursor: none;
+}

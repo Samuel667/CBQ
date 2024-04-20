@@ -1,0 +1,22 @@
+*{margin: 3rem; 
+}
+h1{
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: gold;
+    justify-content: space-between;
+}
+h3{
+    font-size: 30px;
+    color: gold;
+    justify-content: space-between;
+}
+a{
+    font-weight: bolder;
+    font-size: 40px;
+}
+p{
+    font-weight: bolder;
+    color:goldenrod
+}

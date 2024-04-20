@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>end page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <link rel="stylesheet" href="Test.css">
+    <link rel="stylesheet" href="welcome.css">
+    <!-- <link rel="stylesheet" href="Test.js"> -->
+</head>
+<body>
+    <center>
+    <h1 id="showScore" ></h1>
+    <!-- <Audio src="C:\Users\mayda\Desktop\Folder\javascript\preview\Ebuka Songs.mp3.mp3" alt="" width="150px" height="150px"> </Audio> -->
+    
+    
+    <p>press WELCOME to go back to welcome page</p>
+    <a href='welcome.html'>WELCOME</a>
+    
+</center>
+</body>
+
+</html>
+<script type="text/javascript">
+    let a = localStorage.getItem('recentScore')
+    if (a >=800){
+        showScore.innerText = `An EXCELLENT RESULT!.You score ${a}`
+    //   let hot = new  Audio('file:///C:/Users/mayda/Desktop/Folder/javascript/preview/Ebuka%20Songs.mp3')
+        //  Audio: new ( 'file:///C:/Users/mayda/Desktop/Folder/javascript/preview/Ebuka%20Songs.mp3')
+        //  Audio.play
+    } 
+    else if(a >=600){
+        showScore.innerText = `A VERY GOOD RESULT!.You score ${a}`
+    } 
+    else if(a >=500){
+        showScore.innerText = `A GOOD RESULT!.You score ${a}`
+    }
+    else if(a >=400){
+        showScore.innerText = `A FAIR RESULT!.You score ${a}`
+    }else if(a <=399){
+        showScore.innerText = `A POOR RESULT!.You score ${a}. Never give
+        up.You can do better next time.`
+    }
+</script>
